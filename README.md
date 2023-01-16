@@ -33,11 +33,16 @@ in the anchor text
 
 ### Search
 --------------------------------
-
+Searches in body and title(both cossine similarity for short queries and bm25 for long queries);
+Sum all together with weights on all results to keep only the top 100 results.
+Then runs pagerank and pageview on these wiki_ids and reorganizes
+results for a secondary ranking before retrieval concludes.
 
 ### Get PageRank
 --------------------------------
-
+Returns PageRank values for a list of provided wiki article IDs.
 
 ### Get PageView
 --------------------------------
+Returns the number of page views that each of the provide wiki articles
+had in August 2021
