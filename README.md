@@ -1,5 +1,5 @@
 # IR_PROJ
-Informaiom Retrieval PROJECT REPOSITORY
+Informaiom Retrieval Project Repository
 
 This repo contains:
 1. Creating_the_index.ipynb - The code to create the indexes used in this project and saving them in our bucket.
@@ -7,7 +7,7 @@ This repo contains:
 3. search_frontend.py - contains all of the main functions of our retrievel engine. this file also contains the helper functions for the main functions like binary ranking for title and anchor and cosine similarity for the body using tf-idf and BM25 score function.
 4. index files.txt - All index files in our bucket.
 
-## The main functions of our retrievel engine
+## The main functions of our retrieval engine
 
 ### Search Body
 --------------------------------
