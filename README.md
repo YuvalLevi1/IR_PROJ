@@ -1,5 +1,5 @@
 # IR_PROJ
-IR PROJECT REPOSITORY
+Informaiom Retrieval PROJECT REPOSITORY
 
 This repo contains:
 1. Creating_the_index.ipynb - The code to create the indexes used in this project and saving them in our bucket.
